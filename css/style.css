@@ -1,0 +1,130 @@
+html, body{
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-vector/stylish-hexagonal-line-golden-pattern-white-background-template_565745-197.jpg");
+}
+
+img{
+    width: 150px;
+    height: 120px;
+    bottom: 100;
+    border-radius: 50%;
+    border: solid;
+}
+
+img.kiri {
+    float: left;	
+    margin: 20px;
+}
+
+.bungkus{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.portofolio{
+    background-color: rgb(178, 178, 179);
+    border: solid;
+    width: 40%;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: none;
+    height: 160px;
+    background-color: #4ba1de;
+    font-family: cursive;
+}
+
+.kontak{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-top: solid;
+    padding: 10px 0px;
+}
+
+.kontak1{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width: 33.3%;
+    border-right: solid;
+}
+
+.kontak2{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 33.3%;
+    border-right: solid;
+}
+
+.kontak3{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 33.3%;
+}
+
+.konten1{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+.pengalaman{
+    background-color: white;
+    width: 50%;
+    border-right: solid;
+    border-top: solid;
+    padding: 0.5rem;
+    background-color: bisque;
+}
+.pengalaman ul{
+    padding-inline-start: 20px;
+}
+.pendidikan{
+    background-color: white;
+    width: 50%;
+    border-top: solid;
+    padding: 0.5rem;
+    background-color: bisque;
+}
+.pendidikan ul{
+    padding-inline-start: 20px;
+}
+.konten2{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+.keahlian{
+    background-color: white;
+    width: 50%;
+    border-right: solid;
+    border-top: solid;
+    padding: 0.5rem;
+    background-color: bisque;
+}
+.keahlian ul{
+    padding-inline-start: 20px;
+}
+.porto{
+    background-color: white;
+    width: 50%;
+    border-top: solid;
+    padding: 0.5rem;
+    background-color: bisque;
+}
+.porto ul{
+    padding-inline-start: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4ba1de;
+    height: 50px;
+    border-top: solid;
+}
